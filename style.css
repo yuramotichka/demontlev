@@ -209,3 +209,38 @@ nav a:hover{
 .socials a:hover{
     transform:scale(1.05);
 }
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+    url("images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#ff7a00;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:25px;
+}
+
+.hero a{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#ff7a00;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
